@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anand Kumar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.16/build/spline-viewer.js"></script>
+</head>
+
+<body>
+
+    <img class="image-gradient" src="gradient.png" alt="gradient">
+    <div class="layer-blur"></div>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <div class="logo">ANAND</div>
+        <div class="side-icons"></div>
+    </aside>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">#home</a></li>
+            <li><a href="#projects">#projects</a></li>
+            <li><a href="#skills">#skills</a></li>
+            <li><a href="#about">#about-me</a></li>
+            <li><a href="#contact">#contact-me</a></li>
+        </ul>
+
+        <!-- NEW TOP-RIGHT RESUME BUTTON -->
+        <button class="nav-resume-btn">Resume ⬇</button>
+    </nav>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I’m Anand <span>A Tech Enthusiast</span> and <br> <span>learning DSA with JAVA</span></h1>
+            <p>Focused on building clean and impactful projects</p>
+            <button class="scroll-btn">Scroll Down ↓</button>
+        </div>
+
+        <div class="hero-img">
+            <spline-viewer url="https://prod.spline.design/DwI3TP0qmPInGG2T/scene.splinecode"></spline-viewer>
+        </div>
+    </section>
+
+    <!-- QUOTE -->
+    <section class="quote">
+        <p>“Every bug teaches me something new. Every build takes me one step ahead.”</p>
+        <span>- Anand</span>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h2>#projects</h2>
+        <a class="view-all" href="#">View all →</a>
+
+        <div class="project-grid">
+
+            <div class="card fade">
+                <img src="gradient.png" class="thumb">
+                <h3>Comming Soon..</h3>
+                <p>HTML CSS JS Bootstrap NodeJS ExpressJs MySql</p>
+                <a class="live-btn">Live →</a>
+            </div>
+
+            <div class="card fade">
+                <img src="habitual.png" class="thumb">
+                <h3>Habitual</h3>
+                <p>Java, JavaFX, and MySQL</p>
+                <a class="live-btn">Live →</a>
+            </div>
+
+            <div class="card fade">
+                <img src="metallica.png" class="thumb">
+                <h3>MetaLLica</h3>
+                <p>HTML, CSS, JavaScript, JavaFX, MySQL</p>
+                <a class="live-btn">Live →</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <h2>#skills</h2>
+
+        <div class="skills-grid">
+            <div class="skill fade">C</div>
+            <div class="skill fade">C++</div>
+            <div class="skill fade">JAVA</div>
+            <div class="skill fade">HTML</div>
+            <div class="skill fade">CSS</div>
+            <div class="skill fade">JavaScript</div>
+            <div class="skill fade">MySQL</div>
+            <div class="skill fade">DBMS</div>
+            <div class="skill fade">SolidWorks</div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <h2>#about-me</h2>
+
+        <div class="about-wrapper fade">
+            <div class="about-text">
+                <p>Hello, I’m Anand!</p>
+
+                <p>A tech enthusiast who loves exploring how logic and creativity come together to build meaningful products. I’m currently learning Java, DSA, and frontend development, focusing on writing clean code and understanding how real-world systems work.</p>
+
+                <p>I enjoy solving problems, experimenting with new ideas, and constantly leveling up my skills. My goal is simple: keep building, keep learning, and create work that actually makes an impact.</p>
+
+                <button class="resume-btn">Resume ⬇</button>
+            </div>
+
+            <div class="about-img">
+                <img src="hacker.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>#contacts</h2>
+
+        <div class="contact-section fade">
+            <p>I'm interested in opportunities. However, if you have other request or question, don’t hesitate to contact me.</p>
+
+            <div class="contact-card">
+                <p>Message me here</p>
+                <span data-original="+91 62000 12298">💬 +91 62000 12298</span>
+                <span data-original="connect2anandkr@gmail.com">📧 connect2anandkr@gmail.com</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025. Made by Anand</p>
+
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/connect-to-anand/" target="_blank">🔗 LinkedIn</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
